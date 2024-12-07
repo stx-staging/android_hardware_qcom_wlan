@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
+#define MAX_NUM_MLO_LINKS 15
 #define MLO_RSP_MAX_LEN 200
 
 int wpa_driver_get_mlo_links_control_mode(struct i802_bss *bss, char *buf,
